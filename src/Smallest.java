@@ -1,5 +1,5 @@
 /**
- * Algorithm #2 from Week 02 homework.
+ * Algorithm #2 of Week 02 homework.
  *
  * Display the smallest number from an array of numbers
  *

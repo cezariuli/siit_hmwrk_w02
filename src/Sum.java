@@ -1,5 +1,5 @@
 /**
- * Algorithm #1 from Week 02 homework.
+ * Algorithm #1 of Week 02 homework.
  *
  * Calculate the sum of the first 100 numbers higher than 0
  *

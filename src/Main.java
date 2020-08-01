@@ -58,6 +58,9 @@ public class Main {
         //declare and initialise the array to be used for algorithm #2
         int[] numbers = { 2, 73, 15, -4, 27, 0};
 
+        //declare and initialise the number to be used for algorithm #3
+        int nr = 3648;
+
         switch(option) {
             case 1:
                 Sum.CalculateSum();
@@ -66,6 +69,7 @@ public class Main {
                 System.out.println("Minimum number in the array is: " + Smallest.getSmallestNumber(numbers));
                 break;
             case 3:
+                System.out.println("Maximum digit of the number " + nr + " is " + MaxDigit.getMaxDigit(nr));
                 break;
             case 4:
                 break;
