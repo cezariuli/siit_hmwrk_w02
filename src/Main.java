@@ -63,6 +63,7 @@ public class Main {
                 Sum.CalculateSum();
                 break;
             case 2:
+                System.out.println("Minimum number in the array is: " + Smallest.getSmallestNumber(numbers));
                 break;
             case 3:
                 break;

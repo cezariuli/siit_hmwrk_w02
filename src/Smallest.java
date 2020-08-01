@@ -13,9 +13,10 @@ public class Smallest {
 
         int min = 0;
 
-        for(int i : array) {
-            System.out.println("Index is: " + i);
-            System.out.printf("Value of index %d is %d", i, array[i]);
+        for(int x : array) {
+            if ( min > x) {
+                min =x;
+            }
         }
 
         return min;
