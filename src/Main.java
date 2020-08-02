@@ -61,6 +61,9 @@ public class Main {
         //declare and initialise the number to be used for algorithm #3
         int nr = 3648;
 
+        //declare and initialise the number to be used for algorithm #4
+        int nr2 = 1221;
+
         switch(option) {
             case 1:
                 Sum.CalculateSum();
@@ -72,6 +75,12 @@ public class Main {
                 System.out.println("Maximum digit of the number " + nr + " is " + MaxDigit.getMaxDigit(nr));
                 break;
             case 4:
+                if (Palindrom.isNumberPalindrom(nr2) == true) {
+                    System.out.println("Number " + nr2 + " is palindromic");
+                }
+                else {
+                    System.out.println("Number " + nr2 + " is not palindromic");
+                }
                 break;
             case 5:
                 break;
