@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"MaxDigit"},{"p":"<Unnamed>","l":"Palindrom"},{"p":"<Unnamed>","l":"Prime"},{"p":"<Unnamed>","l":"Smallest"},{"p":"<Unnamed>","l":"Sum"}]
