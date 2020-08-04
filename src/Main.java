@@ -24,7 +24,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         //start by asking the user which algorithm to run
         System.out.println("Welcome Filip! This is Cezar's homework. " +
                 "Please select which of the below algorithms you want to review: \n" +
@@ -69,7 +69,7 @@ public class Main {
 
         switch(option) {
             case 1:
-                Sum.CalculateSum();
+                Sum.calculateSum();
                 break;
             case 2:
                 System.out.println("Minimum number in the array is: " + Smallest.getSmallestNumber(numbers));

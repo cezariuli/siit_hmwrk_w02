@@ -10,7 +10,7 @@
 
 public class Sum {
 
-    public static void CalculateSum() {
+    public static void calculateSum() {
         int sum = 0;
         short i;
 
