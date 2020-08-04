@@ -64,6 +64,9 @@ public class Main {
         //declare and initialise the number to be used for algorithm #4
         int nr2 = 1221;
 
+        //declare and initialise the number to be used for algorithm #5
+        int nr3 = 0;
+
         switch(option) {
             case 1:
                 Sum.CalculateSum();
@@ -83,10 +86,24 @@ public class Main {
                 }
                 break;
             case 5:
+                do {
+                    hasExceptions = false;
+                    System.out.println("Please insert a positive number: ");
+                    try {
+                        nr3 = Integer.parseInt(keyboard.nextLine());
+                    } catch (Exception ex) {
+                        System.out.println("Your input is not a number. Try again!");
+                        hasExceptions = true;
+                    }
+                } while (hasExceptions);
+                Prime.showPrimeNumbers(nr3);
                 break;
             default:
                 System.out.println("Unknown option");
         }
 
+        System.out.println("\nThat was it. I hope everything is OK. " +
+                "If you want to try another algorithm, please re-run the project.\n" +
+                "Best regards,\nCezar");
     }
 }
